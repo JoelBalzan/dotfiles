@@ -97,7 +97,7 @@
 	// "expand-left":
 	// "expand-right":
 	"layer": "top",
-	// "output":
+	"output": ["DP-3"],
 	// "position":
 	"height": 0,
 	"width": 0,
