@@ -1,5 +1,5 @@
 {
-    "output": "DP-3",
+    "output": "eDP-1",
     "layer": "top",
     "position": "top",
     "height": 30,
@@ -17,7 +17,7 @@
     ],
     "modules-right": [
     "hyprland/scratchpad",
-    "idle_inhibitor",
+    //"idle_inhibitor",
     //"custom/kernel",
     "disk#ssd",
     "temperature",
@@ -27,7 +27,8 @@
     "network",
     "pulseaudio",
     "clock",
-    "custom/weather"
+    "custom/weather",
+    "battery"
     ],
     
      "hyprland/workspaces": {
@@ -192,4 +193,15 @@
         },
         "on-click": "foot --app-id pulsemixer pulsemixer"
     },
+    "battery": {
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% 󰂄",
+    "format-plugged": "{capacity}% 󰚥",
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽"]
+    }
 }
