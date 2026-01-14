@@ -98,7 +98,7 @@
     },
     "clock": {
         "interval": 60,
-        "timezone": "Europe/Budapest",
+        "timezone": "Australia/Perth",
         "format": "{:%F %R }",
         "tooltip-format": "<tt><small>{calendar}</small></tt>",
         "calendar": {
@@ -202,6 +202,6 @@
     "format": "{capacity}% {icon}",
     "format-charging": "{capacity}% 󰂄",
     "format-plugged": "{capacity}% 󰚥",
-    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽"]
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     }
 }

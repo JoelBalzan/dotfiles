@@ -9,3 +9,10 @@ function Transparent(color)
 end
 
 Transparent()
+
+vim.api.nvim_create_autocmd("User", {
+  pattern = "VeryLazy",
+  callback = function()
+    require("snacks").dashboard()
+  end,
+})
