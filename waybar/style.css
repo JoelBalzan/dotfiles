@@ -222,7 +222,7 @@ label:focus {
 }
 
 #battery {
-    background-color: @sky;
+    background-color: @lavender;
     color: @mantle;
     margin-right: 5px;
 }
